@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: About
 menu:
     main: 
         weight: -90
@@ -7,4 +7,8 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+## This is echo-escpae's blog
+
+- Majoring in Software Enginering
+
+- Loving animation and learning programming

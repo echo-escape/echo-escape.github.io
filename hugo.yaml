@@ -23,7 +23,7 @@ languages:
     zh-cn:
         languageName: 中文
         title: echo-escape's blog
-        weight: 2
+        weight: 1
         params:
             sidebar:
                 subtitle: 摆烂是常态
@@ -59,7 +59,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2025
         customText:
 
     dateFormat:
