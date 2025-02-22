@@ -13,13 +13,6 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: false
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
-        weight: 1
-        params:
-            sidebar:
-                subtitle: Example description
     zh-cn:
         languageName: 中文
         title: echo-escape's blog
@@ -27,14 +20,7 @@ languages:
         params:
             sidebar:
                 subtitle: 摆烂是常态
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+
 
 services:
     # Change it to your Disqus shortname before using
@@ -56,7 +42,8 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /myBlog.ico
+    # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2025
@@ -68,7 +55,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: 为什么头像无法上传
+        subtitle:
         avatar:
             enabled: true
             local: true
@@ -84,7 +71,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname:
@@ -145,13 +132,13 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
+            repo: "echo-escape/echo-escape.github.io"
+            repoID: "R_kgDON9IwJg"
+            category: "Announcements"
+            categoryID: "DIC_kwDON9IwJs4CnM1v"
+            mapping: "pathname"
+            lightTheme: "light"
+            darkTheme: "dark"
             reactionsEnabled: 1
             emitMetadata: 0
 
@@ -172,9 +159,9 @@ params:
             - type: archives
               params:
                   limit: 5
-            - type: categories
-              params:
-                  limit: 10
+            # - type: categories
+            #   params:
+            #       limit: 10
             - type: tag-cloud
               params:
                   limit: 10
@@ -221,11 +208,11 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
+        - identifier: bilibili
           name: Twitter
           url: https://space.bilibili.com/470600583/
           params:
-              icon: brand-twitter
+              icon: brand-bilibili
 
 related:
     includeNewer: true
