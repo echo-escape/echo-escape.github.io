@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on echo-escape blog</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on echo-escape blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>echo-escape</copyright>
+        <lastBuildDate>Fri, 21 Feb 2025 16:39:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My First Post</title>
+        <link>http://localhost:1313/posts/my-first-post/</link>
+        <pubDate>Fri, 21 Feb 2025 16:39:21 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post/</guid>
+        <description>&lt;h2 id=&#34;这是我写的第一个博客&#34;&gt;这是我写的第一个博客
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;我已经跟着教程搞了一下午了&lt;/li&gt;
+&lt;li&gt;结果还是一团糟&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
